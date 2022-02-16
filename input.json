@@ -1,3 +1,624 @@
 {
-  "message": "Paste here the json you want to flatten"
+  "heroBanner": {
+    "heading": "UN<span class='strong'>LOCKED</span>",
+    "description": "Ready to put your skills to the test? Join our team of data scientists on a mission to outsmart powerful forces—and uncover the truth about an ancient & invaluable cure.",
+    "navLogo": "<span class='highlighted'>Un</span>locked",
+    "button": {
+      "label": "Start the Adventure",
+      "mobileLabel": "Start",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "unlocked hero banner",
+        "id": "start the adventure"
+      }
+    },
+    "socialShare": {
+      "label": "Share",
+      "homePage": {
+        "facebook": {
+          "quote": "Join%20the%20interactive%20adventure%20made%20for%20data%20scientists%20from%20%40ZbyHP.%20Put%20your%20skills%20to%20the%20test%20%26%20take%20on%20each%20challenge%20to%20solve%20a%20thrilling%20mystery!%20%23DataUnlockedWithZ",
+          "hashtag": "%23DataUnlockedWithZ",
+          "metrics": {
+            "event": "e_linkClick",
+            "placement": "unlocked hero banner",
+            "id": "facebook"
+          }
+        },
+        "twitter": {
+          "quote": "Join%20the%20interactive%20adventure%20made%20for%20data%20scientists%20from%20%40ZbyHP.%20Put%20your%20skills%20to%20the%20test%20%26%20take%20on%20each%20challenge%20to%20solve%20a%20thrilling%20mystery!%20%23DataUnlockedWithZ",
+          "metrics": {
+            "event": "e_linkClick",
+            "placement": "unlocked hero banner",
+            "id": "twitter"
+          }
+        },
+        "linkedin": {
+          "quote": "Join%20the%20interactive%20adventure%20made%20for%20data%20scientists%20from%20%40ZbyHP.%20Put%20your%20skills%20to%20the%20test%20%26%20take%20on%20each%20challenge%20to%20solve%20a%20thrilling%20mystery!%20%23DataUnlockedWithZ",
+          "metrics": {
+            "event": "e_linkClick",
+            "placement": "unlocked hero banner",
+            "id": "linkedin"
+          }
+        }
+      },
+      "challenges": {
+        "facebook": {
+          "quote": "Just%20finished%20the%20data%20science%20challenge%20in%20Unlocked%2C%20the%20interactive%20film%20made%20by%20%40ZbyHP.%20Join%20in!%20%23DataUnlockedWithZ",
+          "hashtag": "%23DataUnlockedWithZ",
+          "metrics": {
+            "event": "e_linkClick",
+            "placement": "unlocked hero banner",
+            "id": "facebook"
+          }
+        },
+        "twitter": {
+          "quote": "Just%20finished%20the%20data%20science%20challenge%20in%20Unlocked%2C%20the%20interactive%20film%20made%20by%20%40ZbyHP.%20Join%20in!%20%23DataUnlockedWithZ",
+          "metrics": {
+            "event": "e_linkClick",
+            "placement": "unlocked hero banner",
+            "id": "twitter"
+          }
+        },
+        "linkedin": {
+          "quote": "Just%20finished%20the%20data%20science%20challenge%20in%20Unlocked%2C%20the%20interactive%20film%20made%20by%20%40ZbyHP.%20Join%20in!%20%23DataUnlockedWithZ",
+          "metrics": {
+            "event": "e_linkClick",
+            "placement": "unlocked hero banner",
+            "id": "linkedin"
+          }
+        }
+      }
+    }
+  },
+  "videoTrailer": {
+    "src": "../../../asset/video/video2.mp4",
+    "youtubeId": "amAcnesmUDI",
+    "playButton": {
+      "label": "Play Trailer",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "play trailer"
+      }
+    },
+    "continueButton":{
+      "label": "Watch Next Chapter",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "watch next chapter"
+      }
+    },
+    "startButton": {
+      "label": "Watch the Film",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "start the adventure"
+      }
+    },
+    "replayButton": {
+      "label": "Replay trailer",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "replay trailer"
+      }
+    }
+  },
+  "secondaryBanner": {
+    "label": "Discover the power of Z by HP",
+    "heading": "<span class='highlighted'>Z by HP workstations:</span> Tailor-made for data scientists",
+    "body": "Z by HP workstations are designed to help data scientists meet the demands of massive datasets. Whether you’re training models, creating complex visualizations or handling advanced algorithms, there’s a ZBook or Z desktop engineered for your next breakthrough. <br/><br/> Select Z workstations come preloaded with the data science software you need, so you’re ready from day one. Begin the challenges for your chance to win.",
+    "primaryButton": {
+      "label": "Start the Adventure",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "data science challenge",
+        "id": "start the adventure"
+      }
+    },
+    "secondaryButton": {
+      "label": "Learn more",
+      "src": "https://www.hp.com/us-en/workstations/industries/data-science.html",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "data science challenge",
+        "id": "learn more"
+      }
+    }
+  },
+  "tertiaryBanner": {
+    "heading": "Play for a chance to win 1 of 10 HP ZBook Studios & a trip to the Kaggle Days x Z by HP World Championship in Barcelona*",
+    "description": "Play the data science challenges for a chance to win your dream workstation and a trip of a lifetime.",
+    "caption": "*See terms & conditions¹",
+    "secondaryButton": {
+      "label": "Learn More",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "win zbook studio banner",
+        "id": "learn more"
+      }
+    }
+  },
+  "modal": {
+    "heading": "<span class='highlighted'>Unlocked</span> Sweepstakes",
+    "description": "Complete the challenge and test your data science skills. Fill out the form in the challenge pages and you will receive one entry into the sweepstakes. All winnners will be decided after the sweepstakes ends on April 30. To be eligible to play, you must reside in United States, United Kingdom, Canada (excluding Quebec), Japan, Germany, Austria, India, Netherlands, Sweden or Switzerland.",
+    "grandPrize": {
+      "eyebrow": "Grand Prize winner will receive",
+      "title": "A trip to the Kaggle Days x Z by HP World Championship in Barcelona"
+    },
+    "secondaryPrize": {
+      "eyebrow": "10 participants will win",
+      "title": "An HP ZBook Studio preloaded with the data science software stack"
+    },
+    "footer": {
+      "labelBegin": "*NO PURCHASE NECESSARY. A purchase will not increase your chances of winning. Promotion begins at 12:00 PM ET on February 7, 2022 and ends at 11:59:59 PM ET on April 30, 2022. Open only to legal residents of 50 US/DC, Canada (excl Quebec), India, Japan, Germany, South Korea, United Kingdom, Sweden, Netherlands, Austria, or Switzerland, 18+ years of age or age of majority in his/her jurisdiction. ",
+      "hyperlink": {
+        "src": "https://www.hp.com/us-en/workstations/industries/data-science/unlocked-rules.html",
+        "label": "Click here for official rules"
+      },
+      "labelEnd": ", including how to enter, odds, prize details and restrictions. 1 Grand Prize trip available (valued at $13,645.99 USD) and 9 First Prize computers (valued at $5,895.99 USD each). Skill-testing question required for Canadian winners. Void where prohibited. Msg&data rates may apply. Sponsor: HP Inc., 1501 Page Mill Road, Palo Alto, CA 94304, USA."
+    }
+  },
+  "challengeNavigator": {
+    "previousButton": {
+      "label": "Previous Challenge",
+      "mobileLabel": "Prev",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "Previous Challenge"
+      }
+    },
+    "nextButton": {
+      "label": "Next Challenge",
+      "mobileLabel": "Next",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "Next Challenge"
+      }
+    },
+    "challenge-1-label": "Challenge One",
+    "challenge-2-label": "Challenge Two",
+    "challenge-3-label": "Challenge Three",
+    "challenge-4-label": "Challenge Four"
+  },
+  "videoControls": {
+    "play": {
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "play"
+      }
+    },
+    "pause": {
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "pause"
+      }
+    }
+  },
+  "challenge-1": {
+    "youtubeId": "qX-DJuX-XrA",
+    "creditsDuration": "40",
+    "playButton": {
+      "label": "Watch the Film",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "take the challenge"
+      }
+    },
+    "youtubeTutorialId":  "KotY4jlu9rc",
+    "startButton": {
+      "label": "Take the challenge",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "Take the challenge"
+      }
+    },
+    "replayButton": {
+      "label": "Replay video"
+    },
+    "description": {
+      "title": "Data Visualization",
+      "body": "Damone is helping Michaela create a data visualization on global deforestation patterns, but he’s run into some trouble. How would you solve the challenge?<br/><br/>Use your data science skills to complete the visualization. If you get stuck, Ken Jee is here to help with a tutorial walkthrough.<br/><br/>When you’re ready, submit your answers in the form below to continue your journey and enter into the sweepstakes. Consider this a golden opportunity to show us what you’re made of!"
+    },
+    "challengeForm": {
+      "footerStep-1": {
+        "body": {
+          "0": "5.4 MB",
+          "1": "10 files",
+          "2": ".zip"
+        }
+      }
+    },
+    "challengeCompleted": {
+      "title": "Challenge completed. Nice work!",
+      "description": "You’ve completed the first challenge and earned one entry into the sweepstakes. Continue unlocking the mystery for more chances to win!",
+      "button": {
+        "label": "Continue the journey",
+        "metrics": {
+          "event": "e_linkClick",
+          "placement": "Continue journey",
+          "id": "continue the journey"
+        }
+      },
+      "socialShare": {
+        "description": "Share this badge of completion to show that you aced the challenge.",
+        "caption": "* Terms and Conditions"
+      },
+      "retryButton": {
+        "label": "Retry challenge"
+      }
+    }
+  },
+  "challenge-2": {
+    "youtubeId": "rHQlrkPNf18",
+    "creditsDuration": "40",
+    "playButton": {
+      "label": "Watch the Film",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "take the challenge"
+      }
+    },
+    "youtubeTutorialId":  "mkOIb0EulkE",
+    "startButton": {
+      "label": "Continue watching",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "Continue watching"
+      }
+    },
+    "replayButton": {
+      "label": "Replay video"
+    },
+    "description": {
+      "title": "Natural Language Processing",
+      "body": "The only clues Michaela & Damone have on Eva’s whereabouts are a few key words. They've scoured the internet for relevant articles, but there’s just too much information to process quickly.<br/><br/>Use your NLP skills to build a topic model that will answer the mystery of who or what La Eterna is—and remember, Ken Jee is here to help with a tutorial walkthrough if you need a little assistance.<br/><br/>When you’re ready, submit your answers in the form below to continue your journey and enter into the sweepstakes. Consider this a golden opportunity to show us what you’re made of!"
+    },
+    "challengeForm": {
+      "footerStep-1": {
+        "body": {
+          "0": "3.7 MB",
+          "1": "5 files",
+          "2": ".zip"
+        }
+      }
+    },
+    "challengeCompleted": {
+      "title": "Challenge completed. Nice work!",
+      "description": "You’ve completed the second challenge and earned one entry into the sweepstakes. Continue unlocking the mystery for more chances to win!",
+      "button": {
+        "label": "Continue the journey",
+        "metrics": {
+          "event": "e_linkClick",
+          "placement": "Continue journey",
+          "id": "continue the journey"
+        }
+      },
+      "socialShare": {
+        "description": "Share this badge of completion to show that you aced the challenge.",
+        "caption": "* Terms and Conditions"
+      },
+      "retryButton": {
+        "label": "Retry challenge"
+      }
+    }
+  },
+  "challenge-3": {
+    "youtubeId": "pn7b04JBEe4",
+    "creditsDuration": "40",
+    "playButton": {
+      "label": "Watch the Film",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "take the challenge"
+      }
+    },
+    "youtubeTutorialId":  "9Txxl0FJZas",
+    "startButton": {
+      "label": "Continue watching",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "Continue watching"
+      }
+    },
+    "replayButton": {
+      "label": "Replay video"
+    },
+    "description": {
+      "title": "Audio Analysis",
+      "body": "Michaela, Damone & Eva need to pinpoint the place where a certain bird population is most dense. This is a critical point in their journey, and the clock is ticking.<br/><br/>Use your data science skills to analyze these audio files and identify which areas of the forest have the greatest density of capuchinbirds. Tip: Your viz from Challenge 1 may prove helpful.<br/><br/>Remember, Ken Jee is here to help with a tutorial walkthrough if you need a little assistance.<br/><br/>When you’re ready, submit your answers in the form below to continue your journey and enter into the sweepstakes. Consider this a golden opportunity to show us what you’re made of!"
+    },
+    "challengeForm": {
+      "footerStep-1": {
+        "body": {
+          "0": "290.7 MB",
+          "1": "9 files",
+          "2": ".zip"
+        }
+      }
+    },
+    "challengeCompleted": {
+      "titleCompleted": "Your RMSE is",
+      "titleUncompleted": "Well Done!",
+      "description": "You’ve completed the third challenge and earned one entry into the sweepstakes. Continue unlocking the mystery for more chances to win!",
+      "button": {
+        "label": "Continue the journey",
+        "metrics": {
+          "event": "e_linkClick",
+          "placement": "Continue journey",
+          "id": "continue the journey"
+        }
+      },
+      "socialShare": {
+        "description": "Share this badge of completion to show that you aced the challenge.",
+        "caption": "* Terms and Conditions"
+      },
+      "retryButton": {
+        "label": "Retry challenge"
+      }
+    }
+  },
+  "challenge-4": {
+    "youtubeId": "WMQFfyUV7BE",
+    "creditsDuration": "12",
+    "playButton": {
+      "label": "Watch the Film",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "take the challenge"
+      }
+    },
+    "youtubeTutorialId": "KsEFs9uRk74",
+    "startButton": {
+      "label": "Continue watching",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "Continue watching"
+      }
+    },
+    "replayButton": {
+      "label": "Replay video",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "Continue journey",
+        "id": "continue the journey"
+      }
+    },
+    "description": {
+      "title": "Image Analysis",
+      "body": "This is no time for giving up—our data science heroes are on the brink of unlocking the truth!<br/><br/>In this final challenge, you’ll need to build a model to classify whether any given flower can be considered La Eterna or not. Once we identify an image on social media, whoever posted it might lead us to the source.<br/><br/>Don’t forget, Ken Jee is here with tutorial assistance if needed. Good luck!<br/><br/>When you’re ready, submit your answers in the form below to continue your journey and enter into the sweepstakes. Consider this a golden opportunity to show us what you’re made of!"
+    },
+    "challengeForm": {
+      "footerStep-1": {
+        "body": {
+          "0": "25 MB",
+          "1": "6 files",
+          "2": ".zip"
+        }
+      }
+    },
+    "challengeCompleted": {
+      "titleCompleted": "Your Log Loss is",
+      "titleUncompleted": "Great job!",
+      "description": "Well done! You’ve completed the fourth and final challenge and earned one last entry into the sweepstakes.",
+      "button": {
+        "label": "Continue the journey"
+      },
+      "socialShare": {
+        "description": "Share this badge of completion to show that you aced the challenge.",
+        "caption": "* Terms and Conditions"
+      },
+      "retryButton": {
+        "label": "Retry challenge"
+      }
+    }
+  },
+  "challenge-5": {
+    "youtubeId": "SL9AxZet6n0",
+    "creditsDuration": "42",
+    "playButton": {
+      "label": "Watch the Film",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "hero video",
+        "id": "take the challenge"
+      }
+    },
+    "startButton": {
+      "label": "Start the Adventure"
+    },
+    "replayButton": {
+      "label": "Replay video"
+    }
+  },
+  "challengeForm": {
+    "step-1": {
+      "titleHighlight": "Get",
+      "title": "the files",
+      "subtitle": "Or open on GitHub",
+      "buttonLabel": "Download the Dataset",
+      "footer": {
+        "title": {
+          "0": "Size",
+          "1": "Content",
+          "2": "File type"
+        }
+      },
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "challenge step 1",
+        "id": "get the files"
+      }
+    },
+    "step-2": {
+      "titleHighlight": "Submit",
+      "title": "your answer",
+      "dragAndDrop": {
+        "title": "Drag and Drop",
+        "buttonLabel": "Select a file",
+        "errorLabelImage": "You can only upload a single image (maximum size is 2 MB)",
+        "errorLabelCsv": "You can only upload a single csv (maximum size is 2 MB)",
+        "errorCopyMaxFiles": "Can't upload more than 1 file",
+        "errorCopyFileType": "Invalid file type",
+        "errorCopyFileSize": "Maximum file size is 2 MB",
+        "successLabel": "File uploaded successfully!"
+      },
+      "footer": {
+        "image": "Upload your data visualization",
+        "csv": "Upload your CSV"
+      },
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "challenge step 2",
+        "id": "submit your answer"
+      }
+    },
+    "step-3": {
+      "titleHighlight": "Fill out",
+      "title": "your details",
+      "form": {
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "John",
+          "errorCopy": "Enter a first name"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Doe",
+          "errorCopy": "Enter a last name"
+        },
+        "businessEmail": {
+          "label": "Business Email",
+          "placeholder": "example@example.com",
+          "errorCopy": "Enter a business email",
+          "badEmailFormat": "Please enter your email address in format: yourname@example.com"
+        },
+        "companyName": {
+          "label": "Company Name",
+          "placeholder": "Company",
+          "errorCopy": "Enter a company name"
+        },
+        "jobRole": {
+          "label": "Job Role",
+          "placeholder": "Your Role",
+          "errorCopy": "Enter a job role"
+        },
+        "countryResidence": {
+          "label": "Country of residence"
+        },
+        "privacyStatement": {
+          "labelBegin": "HP respects your privacy. Visit HP's",
+          "hyperlink": {
+            "src": "https://www.hp.com/us-en/privacy/privacy.html?jumpid=in_R11928_/us/en/corp/privacy-central/privacy-statements?jumpid=in_R11928_/us/en/corp/privacy-central/privacy-statements",
+            "label": "Privacy Statement"
+          },
+          "labelEnd": "to learn how HP collects and uses your personal data."
+        },
+        "acceptRules": {
+          "labelBegin": "I agree with the",
+          "hyperlink": {
+            "src": "https://www.hp.com/us-en/workstations/industries/data-science/unlocked-rules.html",
+            "label": "sweepstakes rules"
+          },
+          "labelEnd": ". (For residents of countries eligible to participate in the sweepstakes.)",
+          "errorCopy": "You must agree to the rules."
+        },
+        "termsRulesLabel": "sweepstakes rules.",
+        "termsEmail": "HP may email me with personalized offers, support updates, and event news.",
+        "buttonLabel": "Select a file"
+      },
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "challenge step 3",
+        "id": "submit response"
+      }
+    },
+    "video": {
+      "title": "Need some help?",
+      "body": "See how Ken Jee solved the challenge",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "challenge need help",
+        "id": "play video"
+      }
+    }
+  },
+  "completed-list": {
+    "heading": "Well Done!",
+    "descriptionStart": "You’ve finished the film and completed",
+    "descriptionEnd": "of 4 challenges",
+    "challenge-1": {
+      "name": "Challenge 01",
+      "title": "Data Visualization",
+      "image": {
+        "alt": "Image description"
+      },
+      "button": {
+        "replayLabel": "Replay",
+        "playLabel": "Play Challenge 01"
+      }
+    },
+    "challenge-2": {
+      "name": "Challenge 02",
+      "title": "Topic Model",
+      "image": {
+        "alt": "Image description"
+      },
+      "button": {
+        "replayLabel": "Replay",
+        "playLabel": "Play Challenge 02"
+      }
+    },
+    "challenge-3": {
+      "name": "Challenge 03",
+      "title": "Audio Analysis",
+      "image": {
+        "alt": "Image description"
+      },
+      "button": {
+        "replayLabel": "Replay",
+        "playLabel": "Play Challenge 03"
+      }
+    },
+    "challenge-4": {
+      "name": "Challenge 04",
+      "title": "Image Analysis",
+      "image": {
+        "alt": "Image description"
+      },
+      "button": {
+        "replayLabel": "Replay",
+        "playLabel": "Play Challenge 04"
+      }
+    }
+  },
+  "submitModal": {
+    "heading": "We are submitting your entry...",
+    "errorHeading": "There was an error",
+    "errorLabel": "Please try again"
+  },
+  "tertiaryVideoPlayer": {
+    "play": {
+      "label": "Play Video",
+      "metrics": {
+        "event": "e_linkClick",
+        "placement": "need help",
+        "id": "play video"
+      }
+    }
+  }
 }
